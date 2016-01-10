@@ -1,0 +1,10 @@
+{
+    "name": "ReqApi/DeclareIt",
+    "description": "Web app for generating & posting documents relevant to transition.",
+    "version": "1.0",
+    "homepage": "http://queerapps.net",
+    "require": {
+        "mustache/mustache": "*",
+        "stripe/stripe-php": "3.*"
+    }
+}

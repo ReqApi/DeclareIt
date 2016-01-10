@@ -1,0 +1,49 @@
+.navbar-inverse {
+	background-color: #6C9ACC;
+	color: #FFFFFF;
+	border-color: #586F87;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #586F87;
+	
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #586F87;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #FFFFFF;
+}
+
+.navbar > .container .navbar-brand {
+	color: #FFFFFF;
+}
+
+body {
+	background-color: #FFF6C2;
+	color: #54513F;
+}
+
+.page-header{
+	border-bottom-color: #54513F
+}
+
+.panel-default > .panel-heading {
+	background-color: #F7EDBA;
+	border-color: #54513F;
+}
+
+.panel-default > .panel-body {
+	background-color: #F7EDBA;
+}
+
+.panel-default {
+	border-color: #54513F;
+}
+
+.btn-default, .btn-default:hover {
+	background-image: linear-gradient(#657329, #879937 6%, #3F4141);
+	border: 0;
+}

@@ -6,4 +6,23 @@ require "vendor/autoload.php";
 
 session_start();
 
+/* This is to temporarily work around QueerID not yet existing. */
+
+// nothing here yet.
+
+/* End of temporary workaround. */
+
+
 R::setup('mysql:host='.$settings['database']['server'].'; dbname='.$settings['database']['database'],$settings['database']['username'],$settings['database']['password']);
+
+$url = preg_replace("/^\//", '', $_SERVER['REQUEST_URI']);
+if(!$url){ $url = "home"; }
+
+$m = new Mustache_Engine(array(
+	'loader' => new Mustache_Loader_FilesystemLoader(dirname(__FILE__).'/mustache_templates')
+));
+
+$bodyModel = array(
+	"site_title" => $settings['site']['title']
+);
+

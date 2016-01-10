@@ -22,8 +22,9 @@
 }
 
 body {
-	background-color: #FFF6C2;
+	background-color: #FFF6E6;
 	color: #54513F;
+	padding-top: 0px;
 }
 
 .page-header{
@@ -31,12 +32,12 @@ body {
 }
 
 .panel-default > .panel-heading {
-	background-color: #F7EDBA;
+	background-color: #F2EAE2;
 	border-color: #54513F;
 }
 
 .panel-default > .panel-body {
-	background-color: #F7EDBA;
+	background-color: #F2EAE2;
 }
 
 .panel-default {

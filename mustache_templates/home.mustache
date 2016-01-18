@@ -80,7 +80,7 @@
                     </div>
                     <div class="panel-body">
                         <p>{{text}}</p>
-                        <a href="#" class="btn btn-default">Learn More</a>
+                        <button data-service-name='{{service}}' class="btn btn-default service-btn">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -136,12 +136,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <script src="js/declareit.js"></script>
 
 </body>
 

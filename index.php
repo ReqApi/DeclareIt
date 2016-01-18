@@ -18,9 +18,9 @@ $bigimage[] = array("url" => "http://lorempixel.com/g/1900/1080/people", "text" 
 $bigimage[] = array("url" => "http://lorempixel.com/g/1900/1080/abstract", "text" => "Image 2");
 $bigimage[] = array("url" => "http://lorempixel.com/g/1900/1080/nature", "text" => "Image 3");
 
-$item[] = array("icon" => "check", "header" => "This is box 1", "text" => "We went to the store to buy some ice cream but it all had dairy. Wah");
-$item[] = array("icon" => "gift", "header" => "This is box 2", "text" => "Chico tried to eat the cat's food, but the cat said no and threw her waterbowl at him. He was not happy.");
-$item[] = array("icon" => "compass", "header" => "This is box 3", "text" => "The piano is a cool intrument, but it's got nothing on the trombone because actually the trombone means it's walk time.");
+$item[] = array("service" => "deedpoll", "icon" => "check", "header" => "Deed Poll for Change of Name", "text" => "We went to the store to buy some ice cream but it all had dairy. Wah");
+$item[] = array("service" => "statdec", "icon" => "gift", "header" => "Statutory Declaration for Change of Name", "text" => "Chico tried to eat the cat's food, but the cat said no and threw her waterbowl at him. He was not happy.");
+$item[] = array("service" => "genderletter", "icon" => "compass", "header" => "Doctor's Letter confirming change of gender", "text" => "The piano is a cool intrument, but it's got nothing on the trombone because actually the trombone means it's walk time.");
 
 /* End of temporary workaround. */
 

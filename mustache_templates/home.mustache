@@ -23,6 +23,8 @@
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- bootswatch -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/readable/bootstrap.min.css" rel="stylesheet" integrity="sha384-/x/+iIbAU4qS3UecK7KIjLZdUilKKCjUFVdwFx8ba7S/WvxbrYeQuKEt0n/HWqTx" crossorigin="anonymous">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -80,7 +82,7 @@
                     </div>
                     <div class="panel-body">
                         <p>{{text}}</p>
-                        <button data-service-name='{{service}}' class="btn btn-default service-btn">Learn More</button>
+                        <button data-service-name='{{service}}' class="btn btn-success service-btn">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -94,7 +96,7 @@
                 <h2 id="form-title" class="page-header">Select an option above to begin.</h2>
             </div>
             <div class="col-md-6" id="form-content">
-            
+                
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" id="form-image" src="http://lorempixel.com/700/450" alt="">
@@ -137,7 +139,10 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <script src="js/declareit.js"></script>
+    <script src="js/mustache.js"></script>
 
+
+    <div id="mustache-render"></div>
 </body>
 
 </html>

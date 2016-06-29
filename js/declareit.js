@@ -9,7 +9,25 @@
 
     	$('button.service-btn').click(function(){
     		//when a button with the class "service-btn" is clicked...
-    		console.log($(this).attr("data-service-name"));
+
+            var serviceName = $(this).attr('data-service-name');
+
+            $('#mustache-render').load(
+                "mustache_templates/"+serviceName+"-form.mustache #"+serviceName+"-form",
+                function(){
+                    $("#form-content").html(
+                        Mustache.render(
+                            $("#"+serviceName+"-form").html(),
+                            null
+                        )
+
+                    );
+                }
+            );
+
+            $('html, body').animate({
+                scrollTop: $("#form-title").offset().top
+            }, 700);
 
     	});
 
